@@ -1,0 +1,3 @@
+Im solving this Bug here want to merge this ifle to main branch.
+im working on this file to fix the bug.
+File: One/bugfix.txt
