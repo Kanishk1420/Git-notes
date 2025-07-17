@@ -19,3 +19,5 @@ git merge --abort
 git branch -m <old-name> <new-name>
 git branch -d <branch-name>
 git branch
+git diff <branch1>..<branch2>
+git diff <hash1> <hash2>
