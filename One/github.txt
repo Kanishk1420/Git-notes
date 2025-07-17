@@ -10,3 +10,12 @@ git log --oneline
 git show -s-pretty=raw<commit-hash>
 git ls-tree <tree-id>
 git show <blob-id>
+git branch
+git branch <name>
+git checkout <branch-name>
+git switch <branch-name>
+git merge <branch-name>
+git merge --abort
+git branch -m <old-name> <new-name>
+git branch -d <branch-name>
+git branch
