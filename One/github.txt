@@ -4,3 +4,9 @@ git config --global user.name "Your Name"
 git config --global user.email "useremail"
 git init
 git add .
+git commit -m "Initial commit"
+git log
+git log --oneline
+git show -s-pretty=raw<commit-hash>
+git ls-tree <tree-id>
+git show <blob-id>
