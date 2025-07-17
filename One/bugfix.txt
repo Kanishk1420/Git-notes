@@ -6,3 +6,5 @@ Im solving this Bug here want to merge this ifle to main branch.
 im solving this bug help me!
 2025 is the year of AI
 preparing for the merge
+im working on this file to fix the bug.
+git stash pop
