@@ -30,3 +30,13 @@ git stash drop
 git tag <tag-name>
 git tag
 git tag -d <tag-name>
+git rebase main
+git reflog
+git reflog <commit-hash>
+git reset --hard <commit-hash>
+git config --list
+git remote add origin <remote-url>
+git remote -v
+git push -u origin main
+git remote add upstream <remote-url>
+git pull origin main
