@@ -39,7 +39,7 @@ Git's internal structure relies on three key types of objects:
 * **Blob Object**: This object stores the actual content of your files. Think of it as the "blob" of text that makes up your code.
 * **Tree Object**: This represents a directory. It holds a list of file names, their modes, and pointers to the blob objects (for files) or other tree objects (for subdirectories).
 * **Commit Object**: This object ties everything together. It contains a pointer to the main tree object, information about the parent commit(s), the author, the committer, and the commit message.
-(https://docs.chaicode.com/_astro/git-behind-scenes.DjOkWmxn_2aCWmR.webp)
+![Github Behind the Scenes](https://docs.chaicode.com/_astro/git-behind-scenes.DjOkWmxn_2aCWmR.webp)
 
 ---
 
@@ -136,7 +136,7 @@ When you want to get the latest code from a remote repository, you have two main
 
 * **`git fetch`**: This downloads the code from the remote repository but doesn't automatically merge it with your local files. It's like looking at the new menu items without ordering yet.
 * **`git pull`**: This downloads the code *and* immediately tries to merge it into your current branch. It's like fetching and merging in one go.
-[!Local to Remote](https://docs.chaicode.com/_astro/git-workflow.DdVRgovW_Z2ofBQp.webp)
+![Local to Remote](https://docs.chaicode.com/_astro/git-workflow.DdVRgovW_Z2ofBQp.webp)
 ---
 
 ## Open Source Contribution
