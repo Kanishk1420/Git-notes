@@ -1,5 +1,3 @@
-Of course, here is the updated `README.md` file with the new sections, images, and credits.
-
 # Git and GitHub: A Beginner's Guide 🚀
 
 Welcome to the world of Git and GitHub! This guide, inspired by the teachings of Hitesh Choudhary, will walk you through the essentials of version control, from basic commands to advanced concepts, helping you to collaborate effectively and manage your projects with confidence.
