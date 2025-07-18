@@ -9,3 +9,4 @@ preparing for the merge
 im working on this file to fix the bug.
 git stash pop
 another fix message for pink mode 
+another fix message for purple mode
