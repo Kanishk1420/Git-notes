@@ -39,7 +39,7 @@ Git's internal structure relies on three key types of objects:
 * **Blob Object**: This object stores the actual content of your files. Think of it as the "blob" of text that makes up your code.
 * **Tree Object**: This represents a directory. It holds a list of file names, their modes, and pointers to the blob objects (for files) or other tree objects (for subdirectories).
 * **Commit Object**: This object ties everything together. It contains a pointer to the main tree object, information about the parent commit(s), the author, the committer, and the commit message.
-[!Github Behind the Scenes](https://docs.chaicode.com/_astro/git-behind-scenes.DjOkWmxn_2aCWmR.webp)
+(https://docs.chaicode.com/_astro/git-behind-scenes.DjOkWmxn_2aCWmR.webp)
 
 ---
 
