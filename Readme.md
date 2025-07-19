@@ -2,7 +2,7 @@
 
 Welcome to the world of Git and GitHub! This guide, inspired by the teachings of Hitesh Choudhary, will walk you through the essentials of version control, from basic commands to advanced concepts, helping you to collaborate effectively and manage your projects with confidence.
 
----
+
 
 ## Introduction to Git and GitHub
 
@@ -20,7 +20,7 @@ Using Git and GitHub makes it easier to:
 * **Revert** to older versions if something goes wrong.
 * Work on new **features** without affecting the main project.
 
----
+
 
 ## Git Behind the Scenes
 
@@ -39,9 +39,13 @@ Git's internal structure relies on three key types of objects:
 * **Blob Object**: This object stores the actual content of your files. Think of it as the "blob" of text that makes up your code.
 * **Tree Object**: This represents a directory. It holds a list of file names, their modes, and pointers to the blob objects (for files) or other tree objects (for subdirectories).
 * **Commit Object**: This object ties everything together. It contains a pointer to the main tree object, information about the parent commit(s), the author, the committer, and the commit message.
-![Github Behind the Scenes](https://docs.chaicode.com/_astro/git-behind-scenes.DjOkWmxn_2aCWmR.webp)
+![Git Behind the Scenes](https://docs.chaicode.com/_astro/git-behind-scenes.DjOkWmxn_2aCWmR.webp)
 
----
+### Complete git flow
+A complete git flow, along with pushing the code to github looks like this:
+
+![Git Workflow](https://docs.chaicode.com/_astro/complete-flow.DYr-Pvsp_1IQISm.webp)
+
 
 ## Git Fundamentals
 
@@ -61,6 +65,8 @@ This is the core process of using Git:
 2.  **Add** your changes to the staging area with `git add .`.
 3.  **Commit** your changes to save them in your project's history with `git commit -m "Your commit message"`.
 
+![Github Workflow](https://docs.chaicode.com/_astro/flow.DIk3TV2p_Zs00Un.webp)
+
 ### Viewing Your History
 
 * `git log`: Shows a detailed history of your commits.
@@ -70,7 +76,7 @@ This is the core process of using Git:
 
 You can use a `.gitignore` file to tell Git to ignore certain files and folders that you don't want to track, like `node_modules` or `.env` files.
 
----
+
 
 ## Git Branches
 
@@ -90,7 +96,7 @@ Branches allow you to work on different versions of your project at the same tim
 
 A merge conflict happens when Git can't automatically merge changes from different branches. You'll need to manually resolve the conflict to continue.
 
----
+
 
 ## Advanced Git Concepts
 
@@ -113,7 +119,7 @@ A merge conflict happens when Git can't automatically merge changes from differe
 * `git reflog`: Shows a log of all of your actions, including commits and resets.
 * `git reset --hard <commit-hash>`: Resets your project to a specific commit. Be careful, as this will delete all of your changes since that commit.
 
----
+
 
 ## Getting Started with GitHub
 
@@ -137,7 +143,7 @@ When you want to get the latest code from a remote repository, you have two main
 * **`git fetch`**: This downloads the code from the remote repository but doesn't automatically merge it with your local files. It's like looking at the new menu items without ordering yet.
 * **`git pull`**: This downloads the code *and* immediately tries to merge it into your current branch. It's like fetching and merging in one go.
 ![Local to Remote](https://docs.chaicode.com/_astro/git-workflow.DdVRgovW_Z2ofBQp.webp)
----
+
 
 ## Open Source Contribution
 
@@ -156,6 +162,6 @@ Happy coding! 💻
 
 ## ✨ Credits
 
-A huge thank you to **Hitesh Choudhary** for the amazing Git and GitHub tutorials on his YouTube channel. This guide is based on the concepts I learned from his videos.
+A huge thank you to [Chai aur Code](https://youtu.be/q8EevlEpQ2A?si=ZhKNsjrx0rzY2P7N) for the amazing Git and GitHub tutorials on his YouTube channel. This guide is based on the concepts I learned from his videos.
 
 The documentation and images are courtesy of the **Chai aur Code** website. You can find more awesome resources at [https://docs.chaicode.com](https://docs.chaicode.com).
